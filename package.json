@@ -1,0 +1,20 @@
+{
+  "name": "cinemavault",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "Matheus Raphael",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-async-error": "^0.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
