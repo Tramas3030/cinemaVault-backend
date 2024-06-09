@@ -72,7 +72,7 @@ class UsersController {
 
       return response.json();
     } catch (error) {
-      return response.status(error.stausCode || 500).json({ message: error.message });
+      return response.status(error.statusCode || 500).json({ message: error.message });
     }
   }
 }
