@@ -11,6 +11,7 @@
   "author": "Matheus Raphael",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.19.2",
     "express-async-error": "^0.0.2",
     "sqlite": "^5.1.1",
